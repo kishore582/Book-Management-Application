@@ -19,7 +19,7 @@ public class booksDAO extends HttpServlet
 	
 	private static final String JDBC_URL = "jdbc:mysql://localhost:3306/bookManagement";
 	private static final String JDBC_USER = "root";
-	private static final String JDBC_PASSWORD = "kishore";
+	private static final String JDBC_PASSWORD = "root";
 
 	private static final String INSERT_BOOKS_SQL = "INSERT INTO bookList (book, author, borrower) VALUES (?, ?, ?);";
 	
